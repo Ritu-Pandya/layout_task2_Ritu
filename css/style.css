@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+} 
+.h1{
+    
+    font-weight: 500;
+    text-transform: capitalize;
+    border-bottom: black;
+    border-width: 1px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    background: #f000;
+    padding: auto;
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+}
+.topheader {
+    background: black;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.header{
+    
+    padding: 20px 0;
+
+}
+.background{
+    background: lightgray;
+}
+.logo{
+    max-width: 200px;
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 15px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: darkviolet;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 20px;
+}
+ul li a:hover{
+    color: #f00;
+    background-color: blue;
+    border-radius: 2px;
+}
+ul li ul.dropdown{
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+}
+
+
+.width_50{
+    width: 50%;
+    float: left;
+}
+.banner{
+    padding: 40px 0;
+}
+.center
+{
+    text-align: center;
+    background-color:white;
+    padding: 5px;
+}
+/*.otherproduct
+{
+    background-color:#EFEFEF;
+    margin: 0 auto;
+}
+.title h2
+{
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 20px;
+    font-size: 34px;
+}
+.box
+{
+    max-width: 100%;
+    background-color:#EFEFEF;
+    
+}
+.box h4{
+    padding: 0px 15px;
+}
+.box h3{
+    padding: 0px 15px;
+}
+.box span{
+    padding: 0px 15px;
+}
+.leftbox
+{
+    width: 20%;
+    border: 1px solid #6E6E6E;
+    margin: 20px 75px ;
+    float: left;
+}
+.leftbox img
+{
+    max-width: 100%;
+    padding: 20px;
+}
+.leftbox h1{
+    text-align: left;
+    margin: 10px;
+}
+.leftbox p
+{
+    text-align: left;
+    display:block;
+}
+.midbox
+{
+    width: 20%;
+    border: 1px solid #6E6E6E;
+    margin: 20px 75px;
+    float: left;
+    
+
+}
+.midbox img
+{
+    max-width: 100%;
+    padding: 20px;
+}
+.midbox h1{
+    text-align: left;
+    margin: 10px;
+}
+.midbox p
+{
+    text-align: left;
+    display:block;
+}
+.rightbox
+{
+    width: 20%;
+    border: 1px solid #6E6E6E;
+    margin: 20px 75px;
+    float: left;
+}
+.rightbox img
+{
+    max-width: 100%;
+    padding: 20px;
+}
+.rightbox h1{
+    text-align: left;
+    margin: 10px;
+}
+.rightbox p
+{
+    text-align: left;
+    display:block;
+}*/
+.textdiv{
+    padding: 30px;
+}
+.textdiv a{
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: #ddd;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.leftimg{
+    padding: 25px;
+}
+.righttext{
+    padding: 60px
+}
+.righttext a{
+    text-decoration: none;
+    background-color: black;
+}
+.lastbanner{
+    width:100%;
+    background-color: #ddd;
+}
+.abouttext{
+    padding:60px;
+}
+.aboutimg{
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+}
+.bottomfooter {
+    background: black;
+    color: #ddd;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
